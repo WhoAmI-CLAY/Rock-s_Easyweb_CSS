@@ -1,4 +1,4 @@
-/* default css(font�� �׻� ���� ����)*/
+/* default css(font´Â Ç×»ó µû·Î ÁöÁ¤)*/
 body { margin : 0px;}
 img{ vertical-align: top;}
 h1,h2,h3,h4,h5,h6,p,ul{ margin : 0px ; padding : 0px}
@@ -6,5 +6,7 @@ button { cursor : pointer; border : none; padding : 0px}
 input { box-sizing: border-box;}
 li { list-style : none;} a { color: black; text-decoration: none;}
 
+/* text-align : justify 화면 크기에 맞춰서 텍스트를 정확하게 분배한다.*/
+/* word-break : break-all : 오버 플로를 방지하기 위해서는 어떠한 두 문자 사이에서도 줄바꿈이 발생할 수 있다.*/
 div { background-color: #ccc; margin : 20px 0px;}
 div .other { text-align: justify; word-break: break-all;}
