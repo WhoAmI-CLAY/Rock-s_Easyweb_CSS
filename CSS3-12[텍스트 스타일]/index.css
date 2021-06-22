@@ -1,0 +1,10 @@
+/* default css(font는 항상 따로 지정)*/
+body { margin : 0px;}
+img{ vertical-align: top;}
+h1,h2,h3,h4,h5,h6,p,ul{ margin : 0px ; padding : 0px}
+button { cursor : pointer; border : none; padding : 0px}
+input { box-sizing: border-box;}
+li { list-style : none;} a { color: black; text-decoration: none;}
+
+div { background-color: #ccc; margin : 20px 0px;}
+div .other { text-align: justify; word-break: break-all;}
