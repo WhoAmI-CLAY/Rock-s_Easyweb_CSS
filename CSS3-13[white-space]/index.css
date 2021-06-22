@@ -1,7 +1,7 @@
-/* white-space 사용방법 */
-
-div { width: 400px; height : 300px; background-color : #ccc}
-
-.test1 { white-space: nowrap;} /* 어떤 상황에서도 텍스트를 한 줄로 표시한다. (줄바꿈 X)*/
-.test2 { white-space: pre;}    /* 내가 쓴 그대로 텍스트가 표시된다. (space도 마음대로 가능) */
-.test3 { white-space: pre-wrap;} /* 내가 쓴 그대로 텍스트가 표시되지만 박스안에서 자동으로 줄바꿈이 일이난다. */
+body { margin : 0px}
+.bg1 { border : 3px solid red; width: 300px; height: 300px;
+    background-image: url("http://www.mkhealth.co.kr/news/photo/202004/img_MKH200424005_0.jpg"); background-size: cover;}
+.bg2 { width: 500px; height: 500px; background : url("http://www.mkhealth.co.kr/news/photo/202004/img_MKH200424005_0.jpg") no-repeat; }
+.bg3 { width : 300px; height: 300px; background-image: url("images/cat.jpg"); background-repeat: no-repeat; background-size: cover;;}
+.bg4 { width: 500px; height: 500px; background : url("images/cat.jpg") no-repeat ; background-size : cover; }
+img { width: 500px; height: 500px;}
