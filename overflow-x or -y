@@ -1,0 +1,6 @@
+desc : overflow-x 속성은 x축, 즉 왼쪽과 오른쪽의 내용이 넘칠 때,
+       overflow-y 속성은 y축, 즉 우에 아래의 내용이 넘칠 떄 어떻게 보여줄지 지정합니다.
+       
+example(position : fixed) 일때는 스크롤이 나오지 않는데 이때 사용하면 좋다
+
+url : https://aboooks.tistory.com/381
